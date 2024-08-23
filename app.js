@@ -9,6 +9,7 @@ const borrowRouter= require("./Routes/borrowRouter")
 
 
 app.use("/api/user", userRouter)
+app.use("/",bookRouter)
 app.use("/api/book", bookRouter)
 app.use("/api/borrow", borrowRouter)
 
